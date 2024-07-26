@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        function toggle () {
+        var blur = document.getElementById('blur');
+        blur.classList.toggle('active');
+        var popup = document.getElementById('popup');
+        popup.classList.toggle('active');
+        }
+    </script>
+</head>
+<body>
+    <div class="container" id="blur">
+        <div class="content">
+            <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, perferendis? Non error explicabo dolores odio consectetur praesentium, velit iure delectus aspernatur cumque laboriosam! Corrupti quidem iste ipsa ipsum quos nam.</h2>
+            <img src="231212-jennie-for-jacquemus-v0-8hvfpeu4lu5c1.webp" alt="">
+            <a href="#" onclick="toggle()">Read More</a>
+        </div>
+    </div>
+    <div id="popup">
+        <h2>lorem</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa, eos dolor, quod iusto facilis commodi sequi beatae ipsa quos exercitationem quam magnam eius, vel recusandae sapiente. Hic molestiae pariatur sapiente. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi, in. Fugit voluptatem maxime doloremque, explicabo ab vero inventore, aspernatur delectus, animi obcaecati quis aliquid officia sint! Quisquam perspiciatis fuga laborum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam temporibus aliquam deserunt rem ullam quo sapiente ipsa facilis impedit eius nihil doloremque atque, iusto corporis repellendus harum, nostrum architecto quam.</p>
+        <a href="#" onclick="toggle()">Close</a>
+    </div>
+</body>
+
+</html>
